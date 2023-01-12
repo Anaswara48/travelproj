@@ -1,0 +1,276 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Caramel&family=Dancing+Script&family=Great+Vibes&family=Moon+Dance&family=Rubik+Vinyl&family=Sevillana&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: boarder-box;
+}
+
+.header {
+    width: 100%;
+    height: 100vh;
+    background-image: url("./images/mali.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.book{
+    color: black;
+    background-color: red;
+    margin-left: 19px;
+    margin-top: 20px;
+    padding: 14px;
+    text-decoration: none;
+}
+
+.row {
+    width: 100%;
+    padding: 0px 80px;
+    background-color: rgb(231, 235, 238);
+
+}
+
+.navbar {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    padding: 10px 0px;
+    position: fixed;
+    z-index: 1;
+}
+
+.navbar ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 15px;
+    margin-left: 778px;
+}
+
+.navbar li {
+    list-style: none;
+}
+
+.navbar ul li a {
+    padding: 10px 18px;
+    border-radius: 5px;
+    font-family: 'Cookie', cursive;
+    font-size: 16px;
+    color: rgb(252, 250, 250);
+    text-decoration: none;
+}
+
+.navbar ul li a:hover {
+    color: rgb(252, 107, 11);
+}
+
+ .top h1 {
+    color: rgb(228, 26, 110);
+    font-size: 28px;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin-top: 10px;
+    font-family: 'Chakra Petch', sans-serif
+}
+
+.content {
+    width: 100%;
+    min-height: 100vh;
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+    margin-left: -443px;
+    margin-top: 297px;
+    align-items: center;
+    flex-direction: column;
+}
+
+.content h1 {
+    color: hsl(338deg 88% 46%);
+    font-size: 28px;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin-top: 10px;
+    font-family: 'Dancing Script', cursive;
+}
+
+.content a {
+    margin-left: -106px;
+    padding: 12px 20px;
+    font-size: 19px;
+    display: inline-block;
+    letter-spacing: 2px;
+    border-radius: 5px;
+    color: darkblue;
+    font-family: 'Ultra', serif;
+    text-decoration: none;
+    background-color: rgb(206, 206, 16);
+}
+
+.content a:hover {
+    background-color: rgba(17, 14, 194, 0.651);
+}
+
+.image {
+    width: 500px;
+    height: 232px;
+    margin-top: -3px;
+    background: white 2px solid;
+    position: abo;
+    padding: 30px;
+}
+
+.txt {
+    color: black;
+    font-size: 30px;
+    font-weight: 600;
+    text-align: center;
+    margin-top: 120px;
+    margin-left: 36px;
+    font-family: 'Chakra Petch', sans-serif
+}
+
+.img1 {
+    margin-top: 65px;
+    margin-left: 437px;
+}
+
+.m1 {
+    width: 370px;
+    height: 242px;
+}
+
+.img2 {
+    margin-top: -318px;
+    margin-left: 837px;
+}
+
+.m2 {
+    width: 370px;
+    height: 242px;
+}
+
+.img3 {
+    margin-top: -318px;
+    margin-left: 1237px;
+}
+
+.m3 {
+    width: 370px;
+    height: 242px;
+}
+
+.img4 {
+    margin-top: 65px;
+    margin-left: 437px;
+}
+
+.m4 {
+    width: 370px;
+    height: 242px;
+}
+
+.img5 {
+    margin-top: -318px;
+    margin-left: 837px;
+}
+
+.m5 {
+    width: 370px;
+    height: 242px;
+}
+
+.img6 {
+    margin-top: -318px;
+    margin-left: 1237px;
+}
+
+.m6 {
+    width: 370px;
+    height: 242px;
+}
+
+h3 {
+    background-color: rgb(245, 243, 243);
+    width: 276px;
+    height: 54px;
+    padding-top: 17PX;
+    padding-bottom: 2px;
+    text-align: left;
+    padding-left: 94px;
+    color: rgb(90, 125, 189);
+}
+.t1{
+    width: 100%;
+    height: 117vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin-top: 90px;
+}
+.col{
+    margin-top: 148px;
+    margin-left: 0px;
+}
+.col1{
+    text-align:right;
+    margin-top: -680px;
+    margin-right: 290px;
+    text-decoration-line:underline;
+    text-decoration-color: rgb(18, 209, 98);
+    
+
+}
+.col2{
+    text-align: left;
+    font-size: 20px;
+    margin-left:1369px;
+    color:darkblue;
+    font-style:italic;
+    font-weight: 900;
+    margin-top: 18px;
+}
+.col3{
+
+    margin-left:1588px;
+text-decoration: none;
+border-radius: 40px;
+background-color: deeppink;
+padding:  22px 24px;
+color: rgb(5, 59, 32);
+}
+.footer{
+    height: 30vh;
+    background-color: rgb(12, 110, 175);
+    margin-top: -23px;
+    
+}
+.f1{
+    margin-top: 459px;
+    margin-left: 90px;
+    color: aliceblue;
+
+}
+.t2{
+margin-left: 115px;
+margin-top: 2px;
+}
+.f2{
+    margin-top: -130px;
+    margin-left: 896px;
+    color: aliceblue;
+
+}
+.t3{
+    text-align: center;
+}
+.f3{
+    margin-top: -246px;
+    color: aliceblue;
+    margin-left:1520px ;
+}
+.r1{
+    margin-top: 2px;
+    margin-left: 1558px;
+}
